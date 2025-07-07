@@ -155,3 +155,29 @@ body {
   font-size: 15px;
   line-height: 1.6;
 }
+.contact {
+  background-color: #fff0f5;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.contact h2 {
+  font-size: 32px;
+  color: #b5838d;
+  margin-bottom: 40px;
+}
+
+.contact-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  font-size: 18px;
+  color: #444;
+  margin-bottom: 20px;
+}
+
+.contact-item img {
+  width: 30px;
+  height: 30px;
+}
