@@ -107,4 +107,49 @@ body {
   margin-bottom: 15px;
   line-height: 1.6;
 }
+.services {
+  padding: 80px 20px;
+  background-color: #fef6f9;
+  text-align: center;
+}
+
+.services h2 {
+  font-size: 32px;
+  color: #b5838d;
+  margin-bottom: 60px;
+}
+
+.service-block {
+  display: flex;
+  gap: 40px;
+  max-width: 1000px;
+  margin: 0 auto 80px;
+  align-items: center;
+  text-align: left;
+  flex-wrap: wrap;
+}
+
+.service-image img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.service-text h3 {
+  font-size: 24px;
+  color: #6d6875;
+  margin-bottom: 15px;
+}
+
+.service-text p {
+  font-size: 16px;
+  color: #444;
+  line-height: 1.6;
+}
+
+.service-text {
+  flex: 1;
+}
 
