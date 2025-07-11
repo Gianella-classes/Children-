@@ -290,3 +290,24 @@ body {
   height: 24px;
 }
 
+.contact-info {
+  flex: 1;
+  min-width: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+
+.info-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 1.1em;
+  color: #333;
+}
+
+.info-item img {
+  width: 24px;
+  height: 24px;
+}
